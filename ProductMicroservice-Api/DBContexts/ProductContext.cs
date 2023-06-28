@@ -5,6 +5,10 @@ namespace ProductMicroservice.DBContexts
 {
     public class ProductContext : DbContext
     {
+        public ProductContext()
+        {
+        }
+
         public ProductContext(DbContextOptions options) : base(options)
         {
         }
@@ -12,6 +16,7 @@ namespace ProductMicroservice.DBContexts
         public DbSet<Product> Products { get; set;}
         public DbSet<Category> Categories { get; set;}
         public DbSet<ShoppingItem> ShoppingItems { get; set;}
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

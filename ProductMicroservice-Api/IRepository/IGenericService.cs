@@ -2,12 +2,14 @@ using System.Threading.Tasks;
 using System.Collections;
 namespace ProductMicroservice_Api.IRepository
 {
-    public interface IGenericService<T>
+    public interface IGenericService<T> where T : class
     {
-         IEnumerable<T> GetAll();
-         void FindById(int Id);
-         void Insert(T entity);
-         Task<T> update(T entity);
-         void Delete(T entity);
+        IEnumerable<T> GetAll();
+        T GetById(object id);
+        void Insert(T obj);
+        T Add(T obj);
+        void Update(T obj);
+        void Delete(object id);
+        void Save();
     }
 }

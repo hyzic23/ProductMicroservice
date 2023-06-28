@@ -1,24 +1,32 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../.nuget/NuGet/NuGet.Config">
+﻿<Properties StartupConfiguration="{BC9EE8A3-47EB-4E82-AC8B-FCF303AC8C20}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ProductMicroservice-Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProductMicroservice-Api/Controllers/UserController.cs">
     <Files>
-      <File FileName="../../../../.nuget/NuGet/NuGet.Config" Line="1" Column="1" />
+      <File FileName="ProductMicroservice-Api/IRepository/IGenericService.cs" Line="10" Column="22" />
+      <File FileName="ProductMicroservice-Api/Repository/GenericService.cs" Line="36" Column="34" />
+      <File FileName="ProductMicroservice-Api/Controllers/UserController.cs" Line="22" Column="27" />
+      <File FileName="ProductMicroservice-Api/Models/User.cs" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ProductMicroservice" expanded="True">
-            <Node name="NuGet.Config files" expanded="True">
-              <Node name="~/.nuget/NuGet/NuGet.Config" selected="True" />
+            <Node name="NuGet.Config files" expanded="True" />
+            <Node name="ProductMicroservice-Api" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="UserController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

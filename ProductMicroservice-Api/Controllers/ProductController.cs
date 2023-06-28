@@ -28,14 +28,14 @@ public class ProductController : ControllerBase
         return new OkObjectResult(products);
     }
 
-    [HttpGet(Name = "AllProducts")]
-    public IActionResult Products()
-    {
-        var products = _productRepo.AllProducts();
-        if(products == null)
-            return NotFound();
-        return new OkObjectResult(products);
-    }
+    //[HttpGet(Name = "AllProducts")]
+    //public IActionResult Products()
+    //{
+    //    var products = _productRepo.AllProducts();
+    //    if(products == null)
+    //        return NotFound();
+    //    return new OkObjectResult(products);
+    //}
 
     [HttpGet("{id}", Name ="GetProductById")]
     public IActionResult GetProductById(int id)
