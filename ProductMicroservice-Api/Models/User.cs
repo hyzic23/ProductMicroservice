@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace ProductMicroservice.Models
 {
 	public class User
@@ -7,6 +9,7 @@ namespace ProductMicroservice.Models
 		{
 		}
 
+		[Key]
 		public int Id { get; set; }
 		public String Username { get; set; }
         public String Password { get; set; }
