@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using System.Collections;
+
 namespace ProductMicroservice_Api.IRepository
 {
     public interface IGenericService<T> where T : class

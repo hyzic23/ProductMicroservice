@@ -15,6 +15,7 @@ builder.Services.AddDbContext<ProductContext>(o => o.UseNpgsql(builder.Configura
 builder.Services.AddTransient(typeof(IGenericService<>), typeof(GenericService<>));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IShoppingCartService, ShoppingCartService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddControllers();
 // builder.Services.AddMvcCore(f =>
 // {});

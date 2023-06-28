@@ -18,9 +18,11 @@ namespace ProductMicroservice.Controllers
 
         //private IGenericService<User> _service = new GenericService<User>();
         private IGenericService<User> _service;
-        public UserController(IGenericService<User> service)
+        private IUserService _userService;
+        public UserController(IGenericService<User> service, IUserService userService)
         {
             _service = service;
+            _userService = userService;
         }
 
         [HttpGet]
@@ -35,6 +37,14 @@ namespace ProductMicroservice.Controllers
         public IActionResult AddUser(User user)
         {
             User response = _service.Add(user);
+            return Ok(response);
+        }
+
+        [HttpPost]
+        [Route("authenticate-users")]
+        public IActionResult AuthenticateUser(User user)
+        {
+            User response = _userService.ValidateUserCredentials(user.Username, user.Password);
             return Ok(response);
         }
     }
