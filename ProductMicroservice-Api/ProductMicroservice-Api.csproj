@@ -23,8 +23,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="config\" />
+    <None Remove="Models\Authentication\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="config\" />
+    <Folder Include="Models\Authentication\" />
   </ItemGroup>
 </Project>

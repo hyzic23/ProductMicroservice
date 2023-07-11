@@ -6,12 +6,17 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProductMicroservice-Api/Controllers/UserController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProductMicroservice-Api/appsettings.json">
     <Files>
-      <File FileName="ProductMicroservice-Api/IRepository/IGenericService.cs" Line="10" Column="22" />
-      <File FileName="ProductMicroservice-Api/Repository/GenericService.cs" Line="36" Column="34" />
-      <File FileName="ProductMicroservice-Api/Controllers/UserController.cs" Line="22" Column="27" />
-      <File FileName="ProductMicroservice-Api/Models/User.cs" Line="15" Column="1" />
+      <File FileName="ProductMicroservice-Api/IRepository/IGenericService.cs" />
+      <File FileName="ProductMicroservice-Api/Repository/GenericService.cs" />
+      <File FileName="ProductMicroservice-Api/Controllers/UserController.cs" Line="13" Column="2" />
+      <File FileName="ProductMicroservice-Api/Models/User.cs" />
+      <File FileName="ProductMicroservice-Api/Program.cs" />
+      <File FileName="ProductMicroservice-Api/Controllers/ProductController.cs" />
+      <File FileName="ProductMicroservice-Api/IRepository/IUserService.cs" />
+      <File FileName="ProductMicroservice-Api/Repository/UserService.cs" />
+      <File FileName="ProductMicroservice-Api/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,10 +24,10 @@
           <Node name="ProductMicroservice" expanded="True">
             <Node name="NuGet.Config files" expanded="True" />
             <Node name="ProductMicroservice-Api" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="UserController.cs" selected="True" />
-              </Node>
-              <Node name="Models" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="IRepository" expanded="True" />
+              <Node name="Repository" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
