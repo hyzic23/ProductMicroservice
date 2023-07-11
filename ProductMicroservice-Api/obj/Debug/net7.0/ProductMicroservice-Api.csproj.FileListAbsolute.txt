@@ -83,3 +83,4 @@
 /Users/hyzic/Documents/sandbox/c#/ProductMicroservice/ProductMicroservice-Api/obj/Debug/net7.0/ProductMicroservice-Api.pdb
 /Users/hyzic/Documents/sandbox/c#/ProductMicroservice/ProductMicroservice-Api/obj/Debug/net7.0/ProductMicroservice-Api.genruntimeconfig.cache
 /Users/hyzic/Documents/sandbox/c#/ProductMicroservice/ProductMicroservice-Api/obj/Debug/net7.0/ref/ProductMicroservice-Api.dll
+/Users/hyzic/Documents/sandbox/c#/ProductMicroservice/ProductMicroservice-Api/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
