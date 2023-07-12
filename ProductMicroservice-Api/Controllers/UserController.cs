@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProductMicroservice.Models;
 using ProductMicroservice_Api.IRepository;
@@ -11,6 +12,7 @@ using ProductMicroservice_Api.Repository;
 
 namespace ProductMicroservice.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class UserController : ControllerBase
@@ -25,6 +27,7 @@ namespace ProductMicroservice.Controllers
             _userService = userService;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         [Route("all-users")]
         public IActionResult Index()
